@@ -43,8 +43,10 @@ set list listchars=trail:~,nbsp:@
 map <F9> :NERDTreeToggle <Return>
 map <F2> :TlistToggle <CR>
 map <F3> :shell  <CR>
-map L :GPickFile<CR>
-map l :GPickBuffer<CR>
+"map L :GPickFile<CR>
+"map l :GPickBuffer<CR>
+map L :CtrlP<CR>
+map l :CtrlPBuffer<CR>
 nmap m :set list!<Return>
 " ======================================
 
@@ -54,4 +56,5 @@ let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
 " ====== GPicker settings ==============
 let g:gpicker_open_file_in_tabs = 1
+let g:ctrlp_by_filename = 1
 " ======================================
