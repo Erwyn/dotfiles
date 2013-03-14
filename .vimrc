@@ -20,6 +20,7 @@ set expandtab
 " python from powerline.bindings.vim import source_plugin; source_plugin()
 set rtp+=/home/erwyn/.local/lib/python2.7/site-packages/powerline/bindings/vim
 syntax on
+
 set laststatus=2
 set mouse=a
 set guifont=DejaVu\ Sans\ Mono\ 10
@@ -31,6 +32,7 @@ set number
 let Tlist_Use_Right_Window= 1
 let tlist_php_settings = 'php;c:class;f:function'
 set autoread
+syntax on
 " ======================================
 
 " ============= Trailings ==============

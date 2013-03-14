@@ -44,3 +44,4 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/martin/bin/
 export TERM='xterm-256color'
 
+export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
