@@ -10,7 +10,6 @@ ZSH_THEME="af-magic"
 alias -g G="| grep"
 alias -g L="| less"
 
-alias su="su -p"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"

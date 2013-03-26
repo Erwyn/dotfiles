@@ -47,6 +47,8 @@ map <F3> :shell  <CR>
 "map l :GPickBuffer<CR>
 map L :CtrlP<CR>
 map l :CtrlPBuffer<CR>
+map [1;4A ddkP
+map [1;4B ddp
 nmap m :set list!<Return>
 " ======================================
 

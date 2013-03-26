@@ -6,4 +6,4 @@ let g:netrw_dirhist_3='/home/martin/Cube/Tuleap-dev/dev/plugins/tracker/tests/wo
 let g:netrw_dirhist_4='/home/martin/Cube/Tuleap-dev/dev/plugins/tracker/tests/workflow/Action/Rules'
 let g:netrw_dirhist_5='/home/martin/.VirtualBox'
 let g:netrw_dirhist_6='/home/martin/Cube/Tuleap-dev/dev'
-let g:netrw_dirhist_7='/home/erwyn/.vim'
+let g:netrw_dirhist_7='/tmp/build/SPECS'
