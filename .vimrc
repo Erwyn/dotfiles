@@ -56,5 +56,5 @@ let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
 " ====== GPicker settings ==============
 let g:gpicker_open_file_in_tabs = 1
-let g:ctrlp_by_filename = 1
+"let g:ctrlp_by_filename = 1
 " ======================================
