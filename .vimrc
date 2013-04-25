@@ -17,8 +17,8 @@ set expandtab
 " ======================================
 
 " =============== Misc =================
-python from powerline.bindings.vim import source_plugin; source_plugin()
-"set rtp+=/home/erwyn/.local/lib/python2.7/site-packages/powerline/bindings/vim
+"python from powerline.bindings.vim import source_plugin; source_plugin()
+set rtp+=/home/martin/.local/lib/python2.7/site-packages/powerline/bindings/vim
 syntax on
 
 set laststatus=2
@@ -33,6 +33,8 @@ let Tlist_Use_Right_Window= 1
 let tlist_php_settings = 'php;c:class;f:function'
 set autoread
 syntax on
+set wildmenu
+set wildmode=longest:full,full
 " ======================================
 
 " ============= Trailings ==============
@@ -52,8 +54,9 @@ map [1;4B ddp
 nmap m :set list!<Return>
 " ======================================
 
-" =========== ACK ======================
+" =========== ACK & AG ======================
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+let g:agprg="ag --column"
 " ======================================
 
 " ====== GPicker settings ==============

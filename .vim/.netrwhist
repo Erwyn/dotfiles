@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/martin/Cube/Tuleap-dev/dev/plugins/tracker/tests'
 let g:netrw_dirhist_2='/home/martin/Cube/Tuleap-dev/dev/plugins/tracker/tests/workflow'
 let g:netrw_dirhist_3='/home/martin/Cube/Tuleap-dev/dev/plugins/tracker/tests/workflow/Action'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/home/martin/Cube/Tuleap-dev/dev/plugins/tracker/tests/wo
 let g:netrw_dirhist_5='/home/martin/.VirtualBox'
 let g:netrw_dirhist_6='/home/martin/Cube/Tuleap-dev/dev'
 let g:netrw_dirhist_7='/tmp/build/SPECS'
+let g:netrw_dirhist_8='/root/lxc'
